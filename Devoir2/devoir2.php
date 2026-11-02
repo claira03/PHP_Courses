@@ -10,26 +10,26 @@
     <meta charset="UTF-8" />
     <title>Devoir 2</title>
     <style type="text/css">
-        body {
-            margin: 25px;
-        }
+    body {
+        margin: 25px;
+    }
 
-        input {
-            font-size: 2em;
-            margin-right: 15px;
-        }
+    input {
+        font-size: 2em;
+        margin-right: 15px;
+    }
 
-        input[type=submit] {
-            background-color: orange;
-            font-weight: bold;
-        }
+    input[type=submit] {
+        background-color: orange;
+        font-weight: bold;
+    }
     </style>
 </head>
 
 <body>
     <h1>Devoir 2 Fonctions pour String</h1>
     <form action="devoir2_Claira.php" method="GET">
-        <input type="text" name="txtChaine" value="<?php echo htmlspecialchars($chaine); ?>"/>
+        <input type="text" name="txtChaine" value="<?php echo htmlspecialchars($chaine); ?>" />
         <input type="submit" value="Traiter" />
     </form>
     <hr />

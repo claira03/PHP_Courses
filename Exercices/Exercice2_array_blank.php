@@ -45,12 +45,11 @@
     <h1>Manipulation de tableaux avec index</h1>
     <h2>Vous devez créer un tableau nommé $mois qui contiendra les 12 mois de l'année</h2>
     <?php
-        const MAX_NUM = 20;
-        $tab[];
-        for ($i = 0; $i<= 20; $i++){
+    const MAX_NUM = 20;
+    
+    
+    for ($i = 0; $i <= 20; $i++) {
         $tab[] = decbin(ord($i));
-        }
-        ?>
-
-
+    }
+    ?>
 </body>
